@@ -213,18 +213,6 @@
 <!-- app-root @e -->
 <!-- JavaScript -->
 
-<!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-    var _smartsupp = _smartsupp || {};
-    _smartsupp.key = '5f634aa75266b606d398d56a6c6dab7e03fb282a';
-    window.smartsupp||(function(d) {
-        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-        c.type='text/javascript';c.charset='utf-8';c.async=true;
-        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-    })(document);
-</script>
-
 <script src="{{ asset('assets2/js/bundle.js?ver=2.4.0') }}"></script>
 <script src="{{ asset('assets2/js/scripts.js?ver=2.4.0') }}"></script>
 <script src="{{ asset('assets2/js/charts/chart-invest.js?ver=2.4.0') }}"></script>
